@@ -4,7 +4,7 @@ on:
   # 自动触发：push 到 main 分支
   push:
     branches:
-      - main
+      - v1.1.0
     paths:
       - 'docs/**'
       - '.github/workflows/deploy-docs.yml'
